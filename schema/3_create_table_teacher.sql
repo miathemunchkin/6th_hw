@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS teacher (
+    id SERIAL NOT NULL,
+    name VARCHAR(100) NOT NULL,
+    CONSTRAINT teacher_PK PRIMARY KEY (id)
+);
